@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;1,300&display=swap');
+
+body{
+    background: linear-gradient(to left, #ff0000, #0000ff) no-repeat;
+    min-width: 320px;
+}
+
+
+.container{
+    display: flex;
+    max-width: 1280px;
+    margin: 0 auto;
+    width: 100%;
+    height: 600px;
+    position: relative;
+}
+
+
+p{
+    font-family: "Roboto";
+}
+
+
+.card-item:hover,
+.ava_button:hover{
+    box-shadow: 5px 5px 10px #aaa;
+
+}
+
+
+/* --------------Адаптация------------------ */
+@media screen and (max-width: 1200px){
+    .client_flex {
+        display: flex;
+        margin-top: 30px;
+        justify-content: space-around;
+    }
+    
+}
+
+
+@media (min-width: 992px){
+
+}
+
+@media screen and (min-width: 0px) and (max-width:768px){
+    .cards {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .int{
+        font-weight: bold;
+        line-height: 25px;
+        font-size: 12px;
+
+    }
+    .ul{
+        line-height: 25px;
+        font-size: 12px;
+    }
+    .title{
+        font-size: 20px;
+    }
+    .ava_button{
+        font-size: 12px;
+    }
+}
+
+@media screen and (max-width:480px){
+    .client_flex{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    }
+    .end{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    align-content: space-around;
+    flex-wrap: wrap;
+    }
+    .quote_img_right{
+        margin-top: 0px;
+    }
+}
+
+@media(min-width:320px){
+
+}
+
+@media screen and (min-width: 0px) and (max-width: 1200px) {
+    .container{
+        flex-direction: column;
+        height: 100%;
+        width: 100%;
+    }
+    body{
+        background: none;
+    }
+
+    .int{
+        padding: 15px;
+    }
+
+    .ava,
+    .info{
+        position: relative;
+        height: auto;
+        overflow: visible;
+        width: 100%;
+        left: 0;
+        right: 0;
+    }
+
+    .footer{
+        height: 0;
+    }
+
+    .ava {
+        background-color: white;
+        border-radius: 0px;
+        
+    }
+    .button_position{
+        margin-bottom: 20px;
+    }
+
+    .content{
+        justify-content: space-around;
+    }
+
+    .info{
+        margin-top: 0px;
+        box-shadow: none;
+    }
+}
+
+/* ------------------------------------------ */

@@ -1,0 +1,298 @@
+.info{
+    background-color: white;
+    width: 53.3%;
+    height: 600px;
+    min-width: 53.3%;
+    border-radius: 10px 0px 0px 10px;
+    overflow-x:hidden;
+    margin-top: 20px;
+    order: 2;
+    box-shadow: 0px 0px 10px #333,
+    5px 15px 10px #333;
+}
+
+.servis:hover,
+.pro:hover,
+.basic:hover,
+.interval:hover{
+    background-color: #ac9951;
+    color: white;
+    box-shadow: 5px 5px 1px #333;
+    fill: #fff;
+}
+
+.ul{
+    padding-left: 20px;
+    line-height: 35px;
+}
+
+.app,
+.fun_flex{
+    
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.servis svg,
+.pricing svg{
+    width: 50px;
+    height: 50px;
+}
+
+
+/* -----------О Школе---------- */
+
+.text_3{
+    color: rgb(122, 0, 132);
+}
+
+.content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+
+.fon{
+    background-color: rgb(72, 0, 183);
+    color: white;
+    border-radius: 3px;
+    padding-right: 5px;
+}
+
+.int{
+    text-align: right;
+    line-height: 35px;
+}
+
+/* -------------------------------- */
+
+/* -----------Традиции школы------------- */
+
+.servis{
+    max-width: 45%;
+    padding: 25px 20px;
+    width: 35%;
+    min-width: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px 0;
+    border-radius: 12px;
+    transition: all 0.5s ease;
+}
+/* --------------------------------------------- */
+
+
+.servises,
+.client,
+.fun,
+.quote,
+.info{
+    border-bottom: 1px solid rgba(0, 0, 0, 0.105);
+    
+}
+
+
+
+/* --------------Воспитание -------------------*/
+.interval{
+    max-width: 45%;
+    padding: 25px 20px;
+    width: 35%;
+    min-width: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px 0;
+    border-radius: 12px;
+    transition: all 0.5s ease;
+}
+
+.text_fun_fact{
+    font-size: 18px;
+    text-align: center;
+}
+
+.finish,
+.coffee,
+.champion,
+.music{
+    display: flex;
+    flex-direction: column;
+    align-content: space-between;
+    justify-content: center;
+    align-items: center
+}
+
+.none_text{
+    text-decoration: none;
+    color: black;
+}
+
+/* ------------------------------------------------------ */
+
+
+/* ------Отступы заголовков-------- */
+.about,
+.servises,
+.pricing,
+.fun,
+.client,
+.quote,
+.footer{
+    padding: 40px 0 60px;
+}
+
+/* ----------------------------------- */
+
+
+/* ---------------Цвет заголовков----------- */
+.color_text{
+    color: rgb(122, 0, 132);
+}
+/* ------------------------------------------ */
+
+
+/* --------------Гордость Школы--------------- */
+.olimpia{
+    width: 100%;
+    border-radius: 10px;
+    
+}
+
+.text_olimpia{
+    text-align: center;
+    font-family: "Roboto";
+    line-height: 30px;
+}
+
+.opisanie{
+    font-size: 17px;
+}
+
+.client_flex{
+    display: flex;
+    gap: 20px;
+    margin-top: 30px;
+    justify-content: space-around;
+    padding: 25px;
+    align-items: center;
+}
+
+/* ---------------------------------------------- */
+
+/*--------------Скролбар------------ */
+::-webkit-scrollbar {
+    width: 10px;
+    height: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: rgb(125, 0, 130);
+    border-radius: 4px;
+}
+/*--------------Скролбар------------ */
+
+
+/* ----------------Традиции Школы---------------- */
+.text_app{
+    text-align: center;
+}
+
+/* --------------------------------------------------- */
+
+/* -----------Дополнительная информация-------------- */
+table{
+    line-height: 40px;
+    padding: 10px;
+}
+
+.end {
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    gap: 20px;
+    flex-wrap: wrap;
+    padding: 30px;
+    font-family: "Roboto";
+    font-size: 20px;
+    line-height: 30px;
+}
+
+
+/* --------------------------------------------------------- */
+
+
+
+/* ----------Питание-------- */
+
+.cards {
+    display: flex;
+    gap: 15px;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-content: center;
+}
+
+.item-title{
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 30px;
+    
+}
+
+.item-body{
+    font-family: "Roboto";
+    line-height: 30px;
+    padding: 25px;
+}
+
+.item-header {
+    padding: 30px;
+}
+
+
+.item-header svg{
+    width: 40px;
+    height: 40px;
+}
+
+.card-item {
+    gap: 20px;
+    border: 1px solid #333;
+    border-radius: 12px;
+    padding: 30px 30px;
+    transition: all 0.5s ease;
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+}
+
+.prasing{
+    width: 100%;
+    padding-bottom: 40px;
+    height: auto;
+}
+
+/* ----------------- */
+
+
+
+
+.footer{
+    padding-bottom: 20px;
+    height: 0;
+}
+
