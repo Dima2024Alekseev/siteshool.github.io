@@ -26,9 +26,16 @@
     line-height: 35px;
 }
 
+.up{
+    fill:white;
+    width: 30px;
+    height: 30px;
+}
+
 #back-to-top {
     display: none;
-    position: absolute;
+    position: fixed;
+    z-index: 3;
     bottom: 100px;
     right: 30px;
     background-color: #007bff;
