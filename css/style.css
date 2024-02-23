@@ -85,6 +85,10 @@ p{
     .quote_img_right{
         margin-top: 0px;
     }
+
+    #back-to-top{
+        padding: 20px;
+    }
 }
 
 @media(min-width:320px){
