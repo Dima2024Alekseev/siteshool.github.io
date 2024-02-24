@@ -26,26 +26,28 @@
     line-height: 35px;
 }
 
+/* --------------кнопка наверх-------------- */
+
 .up{
-    fill:white;
-    width: 30px;
-    height: 30px;
+    fill: #f58119cc;
+    width: 100px;
+    height: 100px;
 }
 
 #back-to-top {
     display: none;
     position: fixed;
+    visibility:hidden;
     z-index: 3;
     bottom: 100px;
-    right: 30px;
-    background-color: #007bff;
+    right: 0px;
     color: #fff;
     border: none;
     border-radius: 100%;
-    padding: 30px;
     cursor: pointer;
-    background-color: #f58119;
 }
+
+/* --------------кнопка наверх-------------- */
 
 .app,
 .fun_flex{
@@ -155,6 +157,7 @@
     text-decoration: none;
     color: black;
 }
+
 
 /* ------------------------------------------------------ */
 
@@ -287,7 +290,6 @@ table{
 }
 
 .card-item {
-    gap: 20px;
     border: 1px solid #333;
     border-radius: 12px;
     padding: 30px 30px;
