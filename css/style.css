@@ -35,13 +35,81 @@ p{
         margin-top: 30px;
         justify-content: space-around;
     }
-    
 }
 
 
-@media (min-width: 992px){
 
+/* для мобильных устройств */
+@media (min-width: 0px) and (max-width:480px){
+    .title {
+        font-size: 17px;
+    }
+
+    table{
+        font-size: 15px;
+    }
+
+    .button_position{
+        gap: 10px;
+    }
+
+    .social svg {
+        width: 20px;
+        height: 20px;
+    }
+
+    .servis svg,
+    .fun_svg{
+        width: 30px;
+        height: 30px;
+    }
+
+    .app{
+        font-size: 14px;
+    }
+
+    .text_olimpia{
+        font-size: 14px;
+    }
+
+    .opisanie {
+        font-size: 15px;
+        padding-top: 20px;
+    }
+
+    .text_fun_fact {
+        font-size: 14px;
+    }
+
+    .ava_button{
+        font-size: 11px;
+    }
+
+    .item-title {
+        font-size: 22px;
+    }
+
+    .item-header svg {
+        width: 30px;
+        height: 30px;
+    }
+
+    .item-body {
+        font-size: 15px;
+    }
+
+    .map{
+        height: 250px;
+    }
+
+    .up{
+        width: 70px;
+        height: 70px;
+    }
 }
+
+/* для мобильных устройств */
+
 
 @media screen and (min-width: 0px) and (max-width:768px){
     .cards {
@@ -60,12 +128,10 @@ p{
         line-height: 25px;
         font-size: 12px;
     }
-    .title{
-        font-size: 20px;
-    }
-    .ava_button{
+
+    /* .ava_button{
         font-size: 12px;
-    }
+    } */
 }
 
 @media screen and (max-width:480px){
@@ -88,11 +154,20 @@ p{
 
     #back-to-top{
         padding: 20px;
+        right: -15px;
+    }
+
+    .up{
+        width: 70px;
+        height: 70px;
     }
 }
 
-@media(min-width:320px){
-
+@media(min-width:480px) and (max-width:768px){
+    .up{
+        width: 90px;
+        height: 90px;
+    }
 }
 
 @media screen and (min-width: 0px) and (max-width: 1200px) {
