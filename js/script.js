@@ -17,8 +17,9 @@ document.addEventListener("DOMContentLoaded", function () {
     backToTop.style.display = "block";
     
     window.addEventListener("scroll", function () {
-        if (window.pageYOffset > 300) {
+        if (window.pageYOffset > 500) {
             backToTop.style.display = "block";
+            backToTop.style.visibility = "visible"
         } else {
             backToTop.style.display = "none";
         }
