@@ -106,6 +106,8 @@ p{
         width: 70px;
         height: 70px;
     }
+
+    
 }
 
 /* для мобильных устройств */
@@ -129,9 +131,10 @@ p{
         font-size: 12px;
     }
 
-    /* .ava_button{
-        font-size: 12px;
-    } */
+    .circular{
+        width: 50%;
+        height: 50%;
+    }
 }
 
 @media screen and (max-width:480px){
